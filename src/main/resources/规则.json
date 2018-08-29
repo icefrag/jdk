@@ -1,0 +1,41 @@
+[
+	{
+		ruleGroups:[
+			{
+				ruleAttr:"versionMin",
+				operatorSign:"<",
+				value1:"100",
+				value2:""
+			},
+			{
+				ruleAttr:"versionMin",
+				operatorSign:">",
+				logicSign:"or",
+				value1:"100",
+				value2:""
+			}
+			
+		]
+		
+	},
+	{
+		logicSign:"&&",
+		ruleGroups:[
+			{
+				ruleAttr:"versionMin",
+				operatorSign:"=",
+				value1:"20",
+				value2:""
+			},
+			{
+				ruleAttr:"versionMin",
+				operatorSign:"=",
+				logicSign:"||",
+				value1:"10",
+				value2:""
+			}
+			
+		]
+		
+	}
+]
