@@ -19,6 +19,6 @@ public class UseCaseTracker {
 	public static void main(String[] args) {
 	    List<Integer> useCases = new ArrayList<Integer>();
 		Collections.addAll(useCases, 10);
-		trackUseCases(Test.class);
+//		trackUseCases(Test.class);
     }
 }
