@@ -1,0 +1,4 @@
+强引用，软引用，虚引用，幽灵引用
+以及referenceQueue学习
+
+就目前的了解referenceQueue和WeekReference配合使用。当weekReference被回收后，referenceQueue中有一份这个对象的引用。
